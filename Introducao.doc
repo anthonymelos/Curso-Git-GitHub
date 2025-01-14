@@ -52,3 +52,7 @@ Branches ou Ramificações
 O importante ao se criar uma nova atualização de um software é não criar essa atualização na master, pois ao se commitar direto na master, pode-se errar o trabalho, e está errando direto na ramificação principal, na master. Então, o correto é criar outras branches. 
 
 Ao se criar a branch e depois de ser testada, na hora de juntar na master, se faz um 'merge', que é a junção. A finalidade é que a criação de branchs não altera a master. E em caso de erro, criando novas branches, não se tem erro na principal. 
+
+No GitHub desktop, vá em branch e crie novas branchs. Dê um pull nelas para o GitHub e assim já se tem novas branchs pra se trabalhar. 
+
+É necessário se fazer o merge de cada branch para a master ao terminar. Se for 3 branchs, são necessários 3 merges. Portanto, fazer o merge 'into a current branch', que é juntar com main/master atual. 
