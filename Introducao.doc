@@ -1,0 +1,46 @@
+            Curso Git e GitHub
+
+-> O que é Git? 
+- É um software de controle de versão (VCS), ou seja, versionamento de código. Lidar com muitas versões de uma mesma coisa. É muito útil para organização de projetos, nos quais é possível se ver todas as edições de um projeto feitos por uma equipe (principalmente).
+
+- Cada pessoa coloca sua alterações do projeto em repositórios locais por meio de commits. Mas como os repositórios locais conversam entre si? Aí entra o repositório remoto, no qual se irá jogar as versões. Alude-se a um google drive no qual se irá colocar todas as versões, isto feito por meio de pushs.
+
+- Vantagens do controle de software
+. Controle de histórico: Ver versões anteriores, ver quem fez as alterações, voltar estados anteriores do código.
+. Trabalho em equipe.
+. Ramificação do projeto: Juntar todas partes do projeto em um só.
+. Segurança: A pessoa de uma determinada ramificação não consegue ver os códigos de outra ramificação. 
+. Organização. 
+
+- Na prática como funciona o Git: Ele é um repositório local no qual toda vez que se der um commit, se salva o estado na própria máquina. Ele NÃO salva uma cópia do arquivo, NÃO gera zip, NÃO salva novamente. Ele apenas salva a diferença de um arquivo para outro. Por exemplo: se tem um código com 200 linhas, e se escreveu mais 10, o git salva apenas as 10, e diz que as 10 completam as 200. 
+
+
+-> O que é GitHub?
+- Plataforma de Rede Social para programadores. Sendo um repositório remoto. Além de fazer upload de códigos, é possível colaborar com códigos de outros etc. É uma comunidade. 
+- Repositórios ilimitados.
+- Hospedagem de código fonte.
+- Características de rede social. 
+- GitHub pages integrado.
+- Colaboração.
+- Forks (Continuar um projeto).
+
+-> Repositório: É uma pasta no github que se posta projetos e se guarda códigos versionados.
+
+-> Commit: Enviar o trabalho para o repositório local.
+
+-> Push: Enviar o trabalho para repositório remoto.
+
+-> Pull: Pegar o trabalho do repositório remoto para o local.
+
+-> Fetch: Verifica as versões dos repositórios remotos e locais e igualam eles.
+
+-> Clonagem de repositório: É pegar um repositório público, baixá-lo e versionar localmente.
+
+
+Issues
+
+É um levantamento de um problema nos repositórios de alguém. Um programador pode clonar esse repositório, resolver o problema e cria um fork, cria uma branch só para resolução desse problema para aplicação no repositório original após após o dono verificar se a mudança é necessária.
+
+-> Issue é quando se verifica um problema mas não se sabe como resolver.
+
+-> Pull request: Quando se vê um problema em um software, se cria um fork, concertar o trabalho e enviar como uma melhoria.
