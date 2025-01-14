@@ -44,3 +44,11 @@ Issues
 -> Issue é quando se verifica um problema mas não se sabe como resolver.
 
 -> Pull request: Quando se vê um problema em um software, se cria um fork, concertar o trabalho e enviar como uma melhoria.
+
+Branches ou Ramificações
+
+É como as ramificações de uma árvore. A ramificação principal (tronco) é chamado de master. É o produto final. As outras ramificações são commitadas na master. 
+
+O importante ao se criar uma nova atualização de um software é não criar essa atualização na master, pois ao se commitar direto na master, pode-se errar o trabalho, e está errando direto na ramificação principal, na master. Então, o correto é criar outras branches. 
+
+Ao se criar a branch e depois de ser testada, na hora de juntar na master, se faz um 'merge', que é a junção. A finalidade é que a criação de branchs não altera a master. E em caso de erro, criando novas branches, não se tem erro na principal. 
