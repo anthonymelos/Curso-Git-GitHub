@@ -55,4 +55,8 @@ Ao se criar a branch e depois de ser testada, na hora de juntar na master, se fa
 
 No GitHub desktop, vá em branch e crie novas branchs. Dê um pull nelas para o GitHub e assim já se tem novas branchs pra se trabalhar. 
 
-É necessário se fazer o merge de cada branch para a master ao terminar. Se for 3 branchs, são necessários 3 merges. Portanto, fazer o merge 'into a current branch', que é juntar com main/master atual. 
+É necessário se fazer o merge de cada branch para a master ao terminar. Se for 3 branchs, são necessários 3 merges. Portanto, fazer o merge 'into a current branch', que é juntar com main/master atual.
+
+GitHub pages
+
+É um link de site gratuito do github. Basta ir no repositório a ser criado, ir em settings e criar o site daquele repositório.
